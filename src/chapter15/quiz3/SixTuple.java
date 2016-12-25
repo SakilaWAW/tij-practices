@@ -27,8 +27,8 @@ public class SixTuple<A,B,C,D,E,F> extends Tuple<A, B> {
 	}
 
 	public static void main(String[] args) {
-		SixTuple<Integer,Long,Double,Float,Character,Boolean> sixTuple
-			= new SixTuple<Integer,Long,Double,Float,Character,Boolean>(1,(long)2,3.0,(float)4.0,'5',true);
+		SixTuple<Integer,Long,Double,Float,Character,Boolean> sixTuple 
+					= new SixTuple<>(1,(long)2,3.0,(float)4.0,'5',true);
 		System.out.println(sixTuple);
 	}
 
