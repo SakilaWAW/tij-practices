@@ -2,7 +2,7 @@ package chapter15.quiz4;
 
 /**
  * 用泛型重写tij.officalsourcecode.innerclasses.Sequence 泛型的基本使用方式
- * @note. 需要注意的是Java泛型中的擦除机制 有关泛型与数组的联合使用注意事项见:泛型与数组.markdown
+ * @note. 需要注意的是Java泛型中的擦除机制 有关泛型与数组的联合使用注意事项见:泛型与数组.md
  * @author stg0909
  */
 interface Selector<T> {
